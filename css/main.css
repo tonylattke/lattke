@@ -1,0 +1,55 @@
+/* Body and background setup */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #222222;
+}
+html {
+  margin: 0 !important;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.white-box {
+  background-color: #ddd;
+  color: black;
+  -webkit-box-shadow:inset 0 5px 0 0 #fff;
+  box-shadow:inset 0 5px 0 0 #fff;
+  padding-top: 40px;
+  margin-top: 10%;
+}
+
+#feature-logo {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.white-box .feature {
+  padding: 0px 40px;
+  color: #666;
+}
+
+.white-box .feature h2 {
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.white-box .feature h5 {
+  font-size: 21px;
+  margin-bottom: 4px;
+}
+
+.white-box .feature .email {
+  font-size: 15px;
+}
+
+.oplan {
+  text-align: right;
+  padding-right: 10px;
+  cursor: pointer;
+}
